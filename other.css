@@ -1,0 +1,596 @@
+body {
+    font-family: Cute Font, sans-serif;
+    background-color: #a93d7c;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+  }
+  
+  i {
+    padding-top: 5px;
+    color: #a93d7c;
+  }
+
+  h1{
+    font-weight: 700;
+    font-size: 100px;
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .about-line {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+  }
+  
+  /* .about-line img {
+    width: 300px;
+    border: 2px solid black;
+    
+  } */
+
+  h3{
+    font-weight: 700;
+    margin: 0px;
+    text-align: left;
+  }
+
+  .topps{
+    padding-top: 0%;
+    font-family: Quicksand;
+    font-size: 15px;
+  }
+  /* header welcome */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    font-weight: 700;
+  }
+  
+  /* divisions to project skills and others section flexbox */
+  .thisbody {
+    
+    align-self: center;
+    width: auto;
+    
+    /* font-family: Raleway; */
+    font-size: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 2%;
+  }
+
+  .sectionedr{
+    display: flex;
+    justify-content: space-between; /* or center */
+    /* align-self: center;
+    */
+    gap: 20px;
+    font-family: Raleway;
+    text-align: center;
+    padding-left: 410px;
+    padding-right: 100px;
+    padding-bottom: 2%;
+  }
+
+  .section10{
+    display: flex;
+    justify-content: space-between;
+  }
+  .topper {
+    font-family: Raleway;
+    font-size: 15px;
+    margin-top: 0;
+   padding: 10px;
+    
+  }
+
+  .home-icon {
+    position: fixed;       
+    top: 15px;
+    left: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    z-index: 1000;
+  }
+
+  .material-symbols-outlined{
+    font-size: 30px;
+  }
+  
+
+  .proj {
+    width: 300px;
+    padding: 10px;
+    
+  }
+
+  .toppe {
+    font-family: Raleway;
+    font-size: 16px;
+    margin: 0;
+    padding-left: 100px;
+    font-weight: 500;
+    text-align: left;
+  }
+  
+  
+  .content{
+    width: 50%;
+    text-align: left;
+  }
+  .toppey {
+    font-family: Raleway;
+    font-size: 16px;
+    margin-top: 50px;
+    padding-left: 100px;
+    text-align: left;
+    font-weight: 800;
+   
+  }
+  .toppey2 {
+    font-family: Raleway;
+    font-size: 16px;
+    margin-top: 50px;
+    padding-left: 110px;
+    text-align: left;
+    font-weight: 800;
+   
+  }
+
+bold{
+  font-weight: 800;
+}
+
+.one{
+  font-weight: 700;
+}
+.rating{
+  width: 100px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+  .topps {
+    font-family: Raleway;
+    font-size: 16px;
+    margin-top: 0;
+   padding: 10px;
+   margin-bottom: 2px;
+   font-weight: 500;
+    
+  }
+
+  .section {
+    background-color: white;
+    align-self: center;
+    width: 100%;
+    height: 20%;
+    color: #a93d7c;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  .section2 {
+    background-color: white;
+    align-self: center;
+    width: 60%;
+    height: 70%;
+    color: #a93d7c;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  
+  .sectioned{
+    background-color: white;
+    width: 30%;
+    height: auto;
+    color: #a93d7c;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    
+  }
+  /* fontstyle format for p tag */
+  .topper {
+    font-family: Raleway;
+    font-size: 15px;
+    margin-top: 0;
+   padding: 10px;
+    
+  }
+  .toppers {
+    font-family: Raleway;
+    font-size: 15px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    color: #fff;
+   
+  }
+  
+  .star{
+      width: 150px;
+  }
+  .headlil{
+      padding-bottom: 0;
+      margin: 0;
+      padding-top: 15px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 20px;
+      font-weight: 700;
+  }
+  
+  .topp {
+    padding-top: 0%;
+    font-family: Raleway;
+    font-size: 20px;
+    color: white;
+    margin-top: 0%;
+    margin-bottom: 4%;
+  }
+  /* effects for hover for project, skill and other */
+  /* .section:hover {
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    background-color: #de91a5;
+  } */
+  
+  .sect {
+    color: #a93d7c;
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  /* corner instagram and linked in and stuff */
+  .corner-box1 {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    opacity: 0.8;
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: bold;
+    color: #a93d7c;
+    transition: width 0.3s ease;
+    position: fixed;
+    bottom: 24%;
+    right: 1%;
+    z-index: 999;
+  }
+  
+  .corner-box2 {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-family: Quicksand;
+    font-size: 20px;
+    opacity: 0.8;
+    font-weight: bold;
+    color: #a93d7c;
+    transition: width 0.3s ease;
+    position: fixed;
+    bottom: 14%;
+    right: 1%;
+    z-index: 999;
+  }
+  
+  .corner-box3 {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    opacity: 0.8;
+    font-family: Quicksand;
+    font-size: 20px;
+    color: #a93d7c;
+    font-weight: bold;
+    transition: width 0.3s ease;
+    position: fixed;
+    bottom: 4%;
+    right: 1%;
+    z-index: 999;
+  }
+  
+  .corner-box4 {
+      width: 40px;
+      height: 40px;
+      background-color: #fff;
+      border-radius: 8px;
+      opacity: 0.8;
+      font-family: Quicksand;
+      font-size: 20px;
+      font-weight: bold;
+      color: #a93d7c;
+      transition: width 0.3s ease;
+      position: fixed;
+      bottom: 33%;
+      right: 1%;
+      z-index: 999;
+    }
+  
+  /* expand on hover on pc only */
+  .corner-box1:hover {
+    width: 140px;
+    opacity: 1;
+  }
+  
+  .corner-box2:hover {
+    width: 155px;
+    opacity: 1;
+  }
+  
+  .corner-box3:hover {
+    width: 250px;
+    opacity: 1;
+  }
+  
+  .corner-box4:hover {
+      width: 120px;
+      opacity: 1;
+    }
+    
+  .corner-box1 span {
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  
+  .corner-box2 span {
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  
+  .corner-box3 span {
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+  }
+  
+  
+  .corner-box4 span {
+      white-space: nowrap;
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+  /* show text when expanded */
+  .corner-box1:hover span {
+    opacity: 1;
+  }
+  
+  .corner-box2:hover span {
+    opacity: 1;
+  }
+  
+  .corner-box3:hover span {
+    opacity: 1;
+  }
+  
+  .corner-box4:hover span {
+      opacity: 1;
+    }
+  
+    /* mobile compatiblity */
+
+@media (max-width: 768px) {
+    body {
+      font-size: 22px;
+    }
+  
+    h1 {
+      font-size: 40px;
+      text-align: center;
+      
+    }
+  
+    h3{
+        font-size: 30px;
+      text-align: center;
+      padding-left: 30px;
+    }
+
+        .about-line {
+          flex-direction: column;
+          padding: 0;
+          text-align: center;
+
+        }
+        .proj {
+            width: 60%;
+            padding: 0;
+            
+          }
+
+        .toppe {
+            font-size: 15px;
+            margin: 0;
+           padding:0;
+            font-weight: 400;
+            text-align: center;
+          }
+
+          .content{
+            width: 100%;
+            text-align: center;
+          }
+          .toppey {
+            font-family: Raleway;
+            font-size: 16px;
+            padding:0;
+            text-align: center;
+            font-weight: 800;
+           
+          }
+          .toppey2 {
+            font-family: Raleway;
+            font-size: 16px;
+            padding: 0;
+            text-align: center;
+            font-weight: 800;
+           
+          }
+        
+
+    .mobile-bottom {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      background-color: #de91a5;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      cursor: pointer;
+      z-index: 1000;
+    }
+  
+    .headlil {
+      font-size: 40px;
+      padding-bottom: 0;
+      margin: 0;
+    }
+    #bottom-sheet {
+      position: fixed;
+      bottom: -100%;
+      left: 0;
+      width: 100%;
+      height: 70%;
+      background: white;
+      border-radius: 20px 20px 0 0;
+      padding: 0px;
+  
+      overflow-y: auto;        /* 🔑 enables scrolling */
+    -webkit-overflow-scrolling: touch; /* 🔑 smooth iOS scroll */
+  
+      transition: bottom 0.35s ease;
+      z-index: 999;
+    }
+  
+    /* OPEN STATE when clicked on more info */
+    #bottom-sheet.open {
+      bottom: 60px; 
+      opacity: 0.95;
+    }
+    .header {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+    }
+  
+    .snoopy {
+      width: 180px;
+    }
+  
+    #bottom-sheet::after {
+      content: "";
+      position: sticky;
+      bottom: 0;
+      height: 30px;
+      background: linear-gradient(to bottom, rgba(255,255,255,0), white);
+    }
+    
+  
+    .star{
+      width: 100px;
+      }
+    /* STACK sections instead of 3 in a row for projects skills and other*/
+  
+    .thisbody {
+      flex-direction: column;
+      width: 100%;
+      padding: 0px;
+      font-size: 20px;
+    }
+  
+    .section-link {
+      text-decoration: none;
+      color: #a93d7c;
+      width: 100%;
+      display: block;
+    }
+  
+    .sectioned {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-bottom: 20px;
+      }
+    .section {
+      width: 95%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+  }
+  
+  
+  
+  
+  /* hidden by default from pc and also shown for mobile compatibility*/
+  .corner-box1,
+  .corner-box2,
+  .corner-box3,
+  .corner-box4 {
+    display: block;
+  }
+  
+  .mobile-bottom {
+    display: none;
+  }
+  
+  
+  /* 📱mobile compatibility */
+  
+  /* only for pc hover */
+  @media (max-width: 768px), (hover: none) and (pointer: coarse) {
+    .corner-box1,
+    .corner-box2,
+    .corner-box3,
+    .corner-box4 {
+      display: none;
+    }
+  
+    .mobile-bottom {
+      display: flex;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 60px;
+      background-color: #de91a5;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      z-index: 1000;
+    }
+  }
+  
+  /* hide hover items on mobile */
+  
+  #bottom-sheet.open ~ .corner-box1,
+  #bottom-sheet.open ~ .corner-box2,
+  #bottom-sheet.open ~ .corner-box3,
+  #bottom-sheet.open ~ .corner-box4 {
+    display: none;
+  }
+  
+  

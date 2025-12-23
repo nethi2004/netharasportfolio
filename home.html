@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>nethiverse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/x-icon" href="heartport.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=assignment" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
+    <link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="header">
+	<h1>Welcome to Nethara's Portfolio</h1>
+    <img src="star4.png" class="snoopy">
+</div>
+<br>
+
+    <div class="thisbody">
+        <!-- <a href="project.html" class="section-link"> -->
+            <a href="project.html" class="section-link">
+            <div class="section">
+                
+                <p class="headlil">projects</p>
+                <img src="star1.png" class="star">
+                <p class="topper"> projects i built</p>
+                
+            </div>
+            </a>
+        <!-- </a> -->
+        <a href="skills.html" class="section-link">
+        <div class="section">
+        
+                <p class="headlil">skills</p>
+                <img src="star3.png" class="star">
+                <p class="topper"> skills i have</p>
+        </div>
+        </a>
+        <a href="other.html" class="section-link">
+            <div class="section">
+                <p class="headlil">others</p>
+                <img src="star2.png" class="star">
+                <p class="topper"> other interests</p>
+            </div>
+        </a>
+        <br><br> 
+        <!-- for mobile compatibility the br is added so end content can be seen -->
+    </div>
+
+    <!-- pc hover parts of contact info -->
+        <div class="corner-box1">
+            <a href="https://www.instagram.com/netharaa.a" class="sect" target="_blank">
+            <i class="fa fa-instagram" style="font-size:30px"></i>
+          <span> @netharaa.a</span>
+        </a>
+        </div>
+        <div class="corner-box2">
+            <a href="https://ca.linkedin.com/in/nethara-gallage-3a262632b" class="sect" target="_blank">
+            <i class="fa fa-linkedin-square" style="font-size:30px"></i>
+            <span>nethara gallage</span>
+        </a>
+        </div>
+      
+        <div class="corner-box3">
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://mail.google.com/mail/u/0/&ved=2ahUKEwjg7NiA-72RAxXiDDQIHQ8DAK8QFnoECAwQAQ&usg=AOvVaw1GRqnzaEzJ-JntPiR5Sc98" class="sect" target="_blank">
+            <i class="fa fa-envelope" style="font-size:30px"></i>
+            <span>netharagallage@gmail.com</span>
+          </a>
+        </div>
+
+  
+        <div class="corner-box4">
+            <a href="aboutme.html" class="sect">
+                <i class="fa fa-user-circle" style="font-size:30px"></i>
+                <span class="spanfour">about me</span>
+              </a>
+            </div>
+    
+
+
+    <!-- mobile compatibility part not shown on pc -->
+    <div class="mobile-bottom" onclick="toggleSheet()">
+        <span class="material-icons" id="expandIcon">expand_less</span>
+        <span>contact info</span>
+     
+     
+      <div id="bottom-sheet">
+        <br>
+        <a href="aboutme.html" class="sect">
+            <span class="material-icons">account_circle</span><p class="topper"> about me </p> </a>
+            <br><br>
+        <a href="https://ca.linkedin.com/in/nethara-gallage-3a262632b" class="sect" target="_blank">
+            <i class="fa fa-linkedin-square" style="font-size:30px"></i><p class="topper">nethara gallage</p> </a>
+            <br><br>
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://mail.google.com/mail/u/0/&ved=2ahUKEwjg7NiA-72RAxXiDDQIHQ8DAK8QFnoECAwQAQ&usg=AOvVaw1GRqnzaEzJ-JntPiR5Sc98" class="sect" target="_blank">
+            <i class="fa fa-envelope" style="font-size:30px"></i><p class="topper"> netharagallage@gmail.com</p> </a>
+            <br> <br>
+            <a href="https://www.instagram.com/netharaa.a" class="sect" target="_blank">
+                <i class="fa fa-instagram" style="font-size:30px"></i> <p class="topper"> @netharaa.a </p></a>
+                <br>
+
+      </div>
+    </div>
+    <!-- java script section for mobile compatibility -->
+      <script>
+        
+        function toggleSheet() {
+            const sheet = document.getElementById("bottom-sheet");
+  const icon = document.getElementById("expandIcon");
+
+  sheet.classList.toggle("open");
+
+  document.body.style.overflow =
+    sheet.classList.contains("open") ? "hidden" : "";
+
+  icon.textContent = sheet.classList.contains("open")
+    ? "expand_more"
+    : "expand_less";
+        }
+      </script>
+        
+</body>
+</html>
