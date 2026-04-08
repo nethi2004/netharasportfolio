@@ -22,7 +22,7 @@ body {
   .topps{
     padding-top: 0%;
     font-family: Quicksand;
-    font-size: 15px;
+    font-size: 20px;
   }
   /* header welcome */
   .header {
@@ -69,7 +69,29 @@ body {
    padding: 10px;
     
   }
+  .toppe {
+    font-family: Raleway;
+    font-size: 16px;
+    margin: 0;
+    padding-left: 100px;
+    font-weight: 500;
+    
+  }
 
+  .toppey {
+    font-family: Raleway;
+    font-size: 25px;
+    font-weight: 800;
+   
+  }
+
+  .toppey2 {
+    font-family: Raleway;
+    font-size: 30px;
+
+    font-weight: 800;
+   
+  }
   .home-icon {
     position: fixed;       
     top: 15px;
@@ -254,6 +276,7 @@ bold{
     right: 1%;
     z-index: 999;
   }
+
   
   .corner-box4 {
       width: 40px;
@@ -363,7 +386,21 @@ bold{
       cursor: pointer;
       z-index: 1000;
     }
+    .toppey {
+      font-family: Raleway;
+      font-size: 18px;
+      padding:0;
+      font-weight: 800;
+     
+    }
   
+  .toppey2 {
+    font-family: Raleway;
+    font-size: 22px;
+    padding:0;
+    font-weight: 800;
+   
+  }
     .headlil {
       font-size: 40px;
       padding-bottom: 0;

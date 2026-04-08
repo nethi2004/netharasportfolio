@@ -79,8 +79,42 @@ body {
 
   .section10{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    
   }
+
+  .sectwide{
+    width: 300px;
+    height: auto;
+  }
+  .sectwider{
+    width: 400px;
+    height: auto;
+  }
+  .sectwider1{
+    width: 600px;
+    height: auto;
+  }
+  .sectwider2{
+    width: 620px;
+    height: auto;
+  }
+  .sectwidee{
+    width: 600px;
+    height: auto;
+  }
+  .sectwiderer{
+    width: 420px;
+    height: auto;
+  }
+  .secttall{
+    width: 300px;
+    height: auto;
+  }
+  
+
   .topper {
     font-family: Raleway;
     font-size: 15px;
@@ -129,7 +163,7 @@ body {
     font-size: 16px;
     margin-top: 50px;
     padding-left: 100px;
-    text-align: left;
+    text-align: center;
     font-weight: 800;
    
   }
@@ -443,7 +477,31 @@ bold{
             font-weight: 800;
            
           }
-        
+          .section10 {
+            flex-direction: column;
+            align-items: center;
+          }
+          .secttall {
+            width: 100%; /* smaller on mobile */
+          }
+          .sectwide {
+            width: 100%; /* smaller on mobile */
+          }
+          .sectwider1 {
+            width: 100%; /* smaller on mobile */
+          }
+          .sectwider2 {
+            width: 100%; /* smaller on mobile */
+          }
+          .sectwider {
+            width: 100%; /* smaller on mobile */
+          }
+          .sectwiderer {
+            width: 100%; /* smaller on mobile */
+          }
+          .sectwidee {
+            width: 100%; /* smaller on mobile */
+          }
 
     .mobile-bottom {
       position: fixed;
