@@ -101,6 +101,15 @@ body {
     width: 620px;
     height: auto;
   }
+  .sectcustom{
+    height: 400px;
+  }
+  .sectwider3{
+    width: 400px;
+  }
+  .sectwider4{
+    width: 520px;
+  }
   .sectwidee{
     width: 600px;
     height: auto;
@@ -491,6 +500,9 @@ bold{
             width: 100%; /* smaller on mobile */
           }
           .sectwider2 {
+            width: 100%; /* smaller on mobile */
+          }
+          .sectcustom {
             width: 100%; /* smaller on mobile */
           }
           .sectwider {
