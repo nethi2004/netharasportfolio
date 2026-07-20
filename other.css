@@ -122,7 +122,22 @@ body {
     width: 300px;
     height: auto;
   }
-  
+  .sectwider10{
+    width: 400px;
+    height: auto;
+  }
+  .sectwider11{
+    width: 400px;
+    height: auto;
+  }
+  .sectwiders{
+    width: 400px;
+    height: auto;
+  }
+  .sectwidersgif{
+    width: 400px;
+    height: auto;
+  }
 
   .topper {
     font-family: Raleway;
@@ -520,6 +535,19 @@ bold{
             width: 100%; /* smaller on mobile */
           }
           .sectwidee {
+            width: 100%; /* smaller on mobile */
+          }
+          .sectwider10{
+            width: 100%; /* smaller on mobile */
+            
+          }
+          .sectwider11{
+            width: 100%; /* smaller on mobile */
+          }
+          .sectwiders{
+            width: 100%; /* smaller on mobile */
+          }
+          .sectwidersgif{
             width: 100%; /* smaller on mobile */
           }
 
